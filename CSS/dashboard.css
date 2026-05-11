@@ -656,4 +656,51 @@
     .top-bar .modal-btn {
         font-size: 15px;
     }
+
+    .main {
+        background-color: #fff;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .top-bar,
+    .create-story-box,
+    .post {
+        border-radius: 0;
+        box-shadow: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .like-detils .left img {
+        width: 20px;
+        height: 20px;
+        cursor: initial;
+    }
+
+    .like-detils .left span,
+    .like-detils .right span {
+        font-size: 13px;
+        margin-left: 4px;
+        cursor: initial;
+    }
+
+    .like-detils .left span:hover,
+    .like-detils .right span:hover {
+        text-decoration: none;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .top-bar .icons .hidden {
+        display: none;
+    }
+
+    .top-bar .modal-btn {
+        font-size: 15px;
+    }
 }
